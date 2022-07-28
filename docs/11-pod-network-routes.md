@@ -107,7 +107,7 @@ aws ec2 describe-route-tables \
 ]
 ```
 
-# To enable tarric flow between pods across the cluster nodes
+## To enable tarric flow between pods across the cluster nodes
 sudo modprobe br_netfilter
 sudo sysctl net.bridge.bridge-nf-call-iptables=1
 
